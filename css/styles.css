@@ -494,7 +494,6 @@ img {
 }
 .address {
   margin-top: 20px;
-  margin-bottom: 9px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -508,6 +507,8 @@ img {
 
 /* Контакти */
 .contact-footer {
+  display: block;
+  margin-top: 9px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -817,6 +818,7 @@ img {
   margin-bottom: 10px;
 }
 .form-list-label {
+  margin-bottom: 4px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -848,6 +850,7 @@ img {
   color: var(--accent-color);
 }
 .form-list-field {
+  margin-top: 4px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -875,6 +878,13 @@ img {
   border-radius: 4px;
   outline: 0;
   transition: border var(--transition-timing) var(--transition-function);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
 }
 .textarea:hover {
   border: 1px solid var(--accent-color);
@@ -927,6 +937,7 @@ img {
   transition: border-color var(--transition-timing) var(--transition-function);
 }
 .label-policy-checkbox:checked + .label-policy-icon {
+  border: none;
   background-size: contain;
   background-origin: border-box;
   background-color: var(--accent-color-background);
@@ -939,5 +950,7 @@ img {
   text-align: center;
 }
 .checkbox-text-link {
+  text-decoration-line: underline;
+  display: inline;
   color: var(--accent-color);
 }
